@@ -1,0 +1,19 @@
+# reverse a string word by word
+
+string = "Python Programming"
+result = " ".join(string[::-1].split()[::-1])
+print(result)
+#---------------------------------------------------------------------
+
+# adding the number of characters of given string in dictonary
+
+s= "Nandini Gupta"
+frequency = {}
+
+for char in s.lower():
+    if char in frequency:
+        frequency[char] +=1
+    else:
+        frequency[char] =1
+        
+print(frequency)
