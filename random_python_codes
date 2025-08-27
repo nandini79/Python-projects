@@ -17,3 +17,12 @@ for char in s.lower():
         frequency[char] =1
         
 print(frequency)
+#--------------------------------------------------------------------
+
+# Adding Two List Elements Together
+
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+c = [x + y for x, y in zip(a, b)]
+print(c)
